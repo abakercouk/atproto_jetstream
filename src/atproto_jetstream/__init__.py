@@ -52,6 +52,7 @@ class JetstreamCommitEvent(NamedTuple):
     did: str
     time_us: int
     kind: Literal["commit"]
+    cursor: int
     commit: Commit
 
 
@@ -65,6 +66,7 @@ class JetstreamIdentityEvent(NamedTuple):
     did: str
     time_us: int
     kind: Literal["identity"]
+    cursor: int
     identity: Identity
 
 
@@ -79,6 +81,7 @@ class JetstreamAccountEvent(NamedTuple):
     did: str
     time_us: int
     kind: Literal["account"]
+    cursor: int
     account: Account
 
 

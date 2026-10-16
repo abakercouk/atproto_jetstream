@@ -6,7 +6,7 @@ from atproto_jetstream import Jetstream, JetstreamOptions
 async def main():
     options = JetstreamOptions(
         endpoint="wss://jetstream1.us-east.bsky.network/subscribe",
-        compress=True,
+        compress=False,
     )
     async with Jetstream(options) as stream:
         async for event in stream:
@@ -16,7 +16,8 @@ async def main():
                 case "identity":
                     print(event.identity)
                 case "commit":
-                    print(event.commit)
+                    pass
+                    #print(event.commit)
 
 
 if __name__ == "__main__":
