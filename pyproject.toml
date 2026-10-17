@@ -1,6 +1,6 @@
 [project]
 name = "atproto_jetstream"
-version = "0.3.0"
+version = "0.3.1"
 description = "Receive Jetstream events from the AT Protocol"
 readme = "README.md"
 license = "MIT"
@@ -16,5 +16,5 @@ Issues = "https://tangled.org/@nauta.one/atproto_jetstream/issues"
 Repository = "https://tangled.org/@nauta.one/atproto_jetstream"
 
 [build-system]
-requires = ["uv_build>=0.10.0,<0.11.0"]
+requires = ["uv_build>=0.10.0"]
 build-backend = "uv_build"
