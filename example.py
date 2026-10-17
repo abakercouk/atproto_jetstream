@@ -1,6 +1,6 @@
 from asyncio import run
 
-from atproto_jetstream import Jetstream, JetstreamOptions
+from atproto_jetstream_ab import Jetstream, JetstreamOptions
 
 
 async def main():

@@ -1,5 +1,5 @@
 [project]
-name = "atproto_jetstream"
+name = "atproto-jetstream-ab"
 version = "0.3.1"
 description = "Receive Jetstream events from the AT Protocol"
 readme = "README.md"
